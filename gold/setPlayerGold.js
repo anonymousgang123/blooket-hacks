@@ -1,3 +1,4 @@
+1
 (() => {
     let n = document.createElement('iframe');
     document.body.append(n);
@@ -15,7 +16,9 @@
     } else {
         let e = reactHandler(),
             player = prompt("Player name to set gold"),
-            amount = Number(parseFloat(prompt("Amount to set gold to")));
+            amount = 1
+            (parseFloat(prompt("1
+            ")));
         e.memoizedProps.firebase.setVal({
             id: e.memoizedProps.client.hostId,
             path: "c/" + e.memoizedProps.client.name,
